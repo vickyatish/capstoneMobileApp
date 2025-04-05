@@ -2,6 +2,10 @@
 
 This Android application utilizes TensorFlow Lite to perform object detection. It is designed with an abstract `Detector` class to allow for easy switching between different detection models.
 
+# Sample image
+
+<img src="https://imgur.com/a/X7iDGM1" alt="Screenshot of the app" width="500">
+
 ## Project Structure
 
 The core structure of this project is based on the following class design:
@@ -42,9 +46,10 @@ fun setupDetectors() {
     detector.init()
     detector.detect()
 }
+```
 
 
-Key Points:
+## Key Points:
 
 Kotlin's polymorphism allows us to assign subclasses (SignDetector, WalkwayDamageDetector) to a superclass variable (detector) without casting.
 Method calls on the detector instance will be dynamically dispatched to the correct subclass implementation.
@@ -52,11 +57,11 @@ Constructors in the subclass can accept arguments, such as context and model pat
 TensorFlow Lite Models
 This application uses two TensorFlow Lite models for object detection:
 
-sidewalkmodel.tflite
-regressionmodel.tflite
+'sidewalkmodel.tflite'
+'regressionmodel.tflite'
 Important: These models are renamed detection models with metadata downloaded from TensorFlow Hub. Ensure that these files are placed in the appropriate directory within the Android project before running the application.
 
-Note on Model Recognition:
+## Note on Model Recognition:
 
 It is likely that issues encountered with the app not recognizing the intended model earlier were due to missing metadata or the app's inability to properly read the metadata of the TFLite models.
 
@@ -66,5 +71,5 @@ Dual Model: Faster switching but higher GPU usage.
 Single Model: Efficient GPU usage but slower switching.    
 Further development should consider the optimal approach for the specific use case.
 
-Author
+## Author
 Yatish Sekaran
