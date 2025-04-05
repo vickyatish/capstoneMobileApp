@@ -3,7 +3,7 @@
 This Android application utilizes TensorFlow Lite to perform object detection. It is designed with an abstract `Detector` class to allow for easy switching between different detection models.
 
 
-![Sample Image](https://i.imgur.com/YourImage.png)
+![Capstone Mobile App Screenshot](https://i.imgur.com/YourImage.png)
 
 ## Project Structure
 
