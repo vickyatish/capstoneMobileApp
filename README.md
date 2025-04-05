@@ -2,9 +2,8 @@
 
 This Android application utilizes TensorFlow Lite to perform object detection. It is designed with an abstract `Detector` class to allow for easy switching between different detection models.
 
-# Sample image
 
-<img src="https://imgur.com/a/X7iDGM1" alt="Screenshot of the app" width="500">
+![Sample Image](https://i.imgur.com/YourImage.png)
 
 ## Project Structure
 
