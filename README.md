@@ -3,7 +3,7 @@
 This Android application utilizes TensorFlow Lite to perform object detection. It is designed with an abstract `Detector` class to allow for easy switching between different detection models.
 
 
-![Capstone Mobile App Screenshot](https://imgur.com/a/X7iDGM1.png)
+![Sample image](<https://media-hosting.imagekit.io/eb75008ef2914ac9/Screenshot%202025-04-05%20at%2012.59.55%E2%80%AFPM.png?Expires=1838492013&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=k4rYD6VO3wifCUl9NkA5hdiFNht2wz4FLGDYzN-sF98PCYjKTBKwyeiGMV19nekCKPhhRt8qO7-xvc5PvzMNvq~9ieM7vGa9uQP5WcafiQbk-83v3yQcMOdDmHQr1IMR99aKHsHy3-cbq8vqZ8VL0zbk9bFvF~-boTYXK0QXT8DXI2M51088OQJfxsEUJSbZb8mOUZ2Vq0OWP1a59-lU15j8cpn8sj7SFyz3VJlX7~laWu8n2H4HW-hek39fVSpJE2~0tZ7RiLErBuCfYXBkpaQ-a-igb8UhxryBLP85QyQKtN7qKeRRJkGn2LMS1nqLWqB2TIUOVnqLRMJzRnGFpA__>)
 
 ## Project Structure
 
